@@ -1,0 +1,227 @@
+{
+  "xx": {
+    "alias": {
+      "color": {
+        "primary": {
+          "interaction": {
+            "$type": "color",
+            "$value": "{xx.global.color.mint.600}",
+            "$description": "Color that indicates interactions"
+          },
+          "onInteraction": {
+            "$type": "color",
+            "$value": "{xx.global.color.mint.100}",
+            "$description": "color for elements that are placed on interactive background colors"
+          },
+          "brand": {
+            "onPrimary": {
+              "value": "{xx.global.color.mint.100}",
+              "type": "color",
+              "description": "color for elements that are placed on primary brand color"
+            },
+            "$type": "color",
+            "$value": "{xx.global.color.neutral.950}",
+            "$description": "background color for primary brand elements "
+          },
+          "onBrand": {
+            "$type": "color",
+            "$value": "{xx.global.color.mint.100}",
+            "$description": "color for elements that are placed on brand background color"
+          }
+        },
+        "purpose": {
+          "infoHighEmphasis": {
+            "$type": "color",
+            "$value": "{xx.global.color.violet.400}",
+            "$description": "color for elements with informational purpose of high emphasis"
+          },
+          "infoLowEmphasis": {
+            "$type": "color",
+            "$value": "{xx.global.color.violet.200}",
+            "$description": "color for elements with informational purpose of low emphasis"
+          },
+          "onInfo": {
+            "$type": "color",
+            "$value": "{xx.global.color.violet.800}",
+            "$description": "color for elements placed on informational purpose background"
+          },
+          "successHighEmphasis": {
+            "$type": "color",
+            "$value": "{xx.global.color.green.400}",
+            "$description": "color for elements with success purpose of high emphasis"
+          },
+          "successLowEmphasis": {
+            "$type": "color",
+            "$value": "{xx.global.color.green.200}",
+            "$description": "color for elements with success purpose of low emphasis"
+          },
+          "onSuccess": {
+            "$type": "color",
+            "$value": "{xx.global.color.green.800}",
+            "$description": "color for elements placed on success purpose background"
+          },
+          "warningHighEmphasis": {
+            "$type": "color",
+            "$value": "{xx.global.color.gold.200}",
+            "$description": "color for elements with warning purpose of high emphasis"
+          },
+          "warningLowEmphasis": {
+            "$type": "color",
+            "$value": "{xx.global.color.gold.400}",
+            "$description": "color for elements with warning purpose of low emphasis"
+          },
+          "onWarning": {
+            "$type": "color",
+            "$value": "{xx.global.color.gold.800}",
+            "$description": "color for elements placed on warning purpose background"
+          },
+          "criticalHighEmphasis": {
+            "$type": "color",
+            "$value": "{xx.global.color.red.400}",
+            "$description": "color for elements with critical purpose of high emphasis"
+          },
+          "criticalLowEmphasis": {
+            "$type": "color",
+            "$value": "{xx.global.color.red.500}",
+            "$description": "color for elements with critical purpose of low emphasis"
+          },
+          "onCritical": {
+            "$type": "color",
+            "$value": "{xx.global.color.red.900}",
+            "$description": "color for elements placed on critical purpose background"
+          }
+        },
+        "background": {
+          "body": {
+            "$type": "color",
+            "$value": "{xx.global.color.neutral.300}",
+            "$description": "body background color"
+          },
+          "highEmphasis": {
+            "$type": "color",
+            "$value": "{xx.global.color.neutral.100}",
+            "$description": "background Color for components with high emphasis"
+          },
+          "lowEmphasis": {
+            "$type": "color",
+            "$value": "{xx.global.color.neutral.300}",
+            "$description": "background color for elements with a low emphasis"
+          }
+        },
+        "text": {
+          "default": {
+            "$type": "color",
+            "$value": "{xx.global.color.neutral.900}",
+            "$description": "Default text color "
+          },
+          "inverted": {
+            "$type": "color",
+            "$value": "{xx.global.color.neutral.50}",
+            "$description": "Inverted text color"
+          },
+          "subtle": {
+            "$type": "color",
+            "$value": "{xx.global.color.neutral.600}",
+            "$description": "Text color in subtle weight"
+          }
+        },
+        "state": {
+          "disable": {
+            "$type": "color",
+            "$value": "{xx.global.color.neutral.300}",
+            "$description": "background color for disabled elements"
+          },
+          "onDisable": {
+            "$type": "color",
+            "$value": "{xx.global.color.neutral.700}",
+            "$description": "color for elements that are palced on disabled background color"
+          },
+          "hover": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.16",
+                  "space": "srgb"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{xx.global.color.neutral.100}",
+            "$description": "Background color for state overlay of a hovered element"
+          },
+          "focus": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.16",
+                  "space": "srgb"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{xx.global.color.neutral.100}",
+            "$description": "Background color for state overlay of a focused element"
+          },
+          "press": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.08",
+                  "space": "srgb"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{xx.global.color.neutral.100}",
+            "$description": "Background color for state overlay of a pressed element"
+          },
+          "select": {
+            "$type": "color",
+            "$value": "{xx.global.color.mint.100}",
+            "$description": "background color for selected elements"
+          },
+          "onSelect": {
+            "$type": "color",
+            "$value": "{xx.global.color.mint.600}",
+            "$description": "Foreground color for selected elements"
+          },
+          "selectInverted": {
+            "$type": "color",
+            "$value": "{xx.global.color.mint.600}",
+            "$description": "Inverted background color for selected elements"
+          },
+          "onSelectInverted": {
+            "$type": "color",
+            "$value": "{xx.global.color.mint.100}",
+            "$description": "inverted color for elements on selected backgrounds"
+          }
+        },
+        "border": {
+          "subtle": {
+            "$type": "color",
+            "$value": "{xx.global.color.neutral.700}",
+            "$description": "subtle border color"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{xx.global.color.neutral.500}",
+            "$description": "medium border color"
+          },
+          "heavy": {
+            "$type": "color",
+            "$value": "{xx.global.color.neutral.200}",
+            "$description": "heavy border color"
+          },
+          "focusOutline": {
+            "$type": "color",
+            "$value": "{xx.global.color.violet.500}",
+            "$description": "color for default focus outline"
+          }
+        }
+      }
+    }
+  }
+}

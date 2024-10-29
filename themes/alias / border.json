@@ -1,0 +1,46 @@
+{
+  "xx": {
+    "alias": {
+      "border": {
+        "width": {
+          "sm": {
+            "$type": "borderWidth",
+            "$value": "{xx.global.dimensions.1}",
+            "$description": "small thickness for borders"
+          },
+          "md": {
+            "$type": "borderWidth",
+            "$value": "{xx.global.dimensions.2}",
+            "$description": "medium border thickness"
+          }
+        },
+        "focusOutline": {
+          "$type": "border",
+          "$value": {
+            "color": "{xx.alias.color.border.focusOutline}",
+            "width": "{xx.alias.border.width.md}",
+            "style": "solid"
+          },
+          "$description": "default outline for focused elements"
+        },
+        "radius": {
+          "sm": {
+            "$type": "borderRadius",
+            "$value": "{xx.global.dimensions.2}",
+            "$description": "small border radius"
+          },
+          "md": {
+            "$type": "borderRadius",
+            "$value": "{xx.global.dimensions.3}",
+            "$description": "medium border radius"
+          },
+          "lg": {
+            "$type": "borderRadius",
+            "$value": "{xx.global.dimensions.5}",
+            "$description": "large border radius"
+          }
+        }
+      }
+    }
+  }
+}

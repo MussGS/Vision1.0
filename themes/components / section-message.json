@@ -1,0 +1,71 @@
+{
+  "xx": {
+    "component": {
+      "sectionMessage": {
+        "success": {
+          "background": {
+            "$type": "color",
+            "$value": "{xx.alias.color.purpose.successHighEmphasis}",
+            "$description": "background color for success section messages "
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{xx.alias.color.purpose.onSuccess}",
+            "$description": "text color for success section messages"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{xx.alias.color.purpose.onSuccess}",
+            "$description": "icon color for success section messages"
+          }
+        },
+        "warning": {
+          "background": {
+            "$type": "color",
+            "$value": "{xx.alias.color.purpose.warningHighEmphasis}",
+            "$description": "background color for warning section messages"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{xx.alias.color.purpose.onWarning}",
+            "$description": "text color for warning section messages"
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{xx.alias.color.purpose.onWarning}",
+            "$description": "icon color for warning section messages"
+          }
+        },
+        "height": {
+          "min": {
+            "$type": "sizing",
+            "$value": "{xx.alias.size.md}",
+            "$description": "min height of section messages"
+          }
+        },
+        "spacing": {
+          "innerY": {
+            "$type": "spacing",
+            "$value": "{xx.alias.spacing.md}",
+            "$description": "top and bottom inner spacing for section messages"
+          },
+          "innerX": {
+            "$type": "spacing",
+            "$value": "{xx.alias.spacing.sm}",
+            "$description": "left and right inner spacing for section messages"
+          },
+          "gap": {
+            "$type": "spacing",
+            "$value": "{xx.alias.spacing.xs}",
+            "$description": "gap for separating elements in section message"
+          }
+        },
+        "borderRadius": {
+          "$type": "borderRadius",
+          "$value": "{xx.alias.border.radius.md}",
+          "$description": "border radius for section messages"
+        }
+      }
+    }
+  }
+}

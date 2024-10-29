@@ -1,0 +1,325 @@
+{
+  "xx": {
+    "global": {
+      "color": {
+        "mint": {
+          "50": {
+            "$type": "color",
+            "$value": "#F6FEFB",
+            "$description": "global color mint of weight 50"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#C5F8EA",
+            "$description": "global color mint of weight 100"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#55EBCE",
+            "$description": "global color mint of weight 200"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#00D4B6",
+            "$description": "global color mint of weight 300"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#0AB29A",
+            "$description": "global color mint of weight 400"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#188675",
+            "$description": "global color mint of weight 500"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#1A6A5D",
+            "$description": "global color mint of weight 600"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#19544B",
+            "$description": "global color mint of weight 700"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#174039",
+            "$description": "global color mint of weight 800"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#142C28",
+            "$description": "global color mint of weight 900"
+          }
+        },
+        "violet": {
+          "50": {
+            "$type": "color",
+            "$value": "#FCFCFE",
+            "$description": "global color viola of weight 50"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#ECEDFA",
+            "$description": "global color viola of weight 100"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#D0D2F3",
+            "$description": "global color viola of weight 200"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#B6B8EB",
+            "$description": "global color viola of weight 300"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#9598E0",
+            "$description": "global color viola of weight 400"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#686FC8",
+            "$description": "global color viola of weight 500"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#57579C",
+            "$description": "global color viola of weight 600"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#49457A",
+            "$description": "global color viola of weight 700"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#39345A",
+            "$description": "global color viola of weight 800"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#29253C",
+            "$description": "global color viola of weight 900"
+          }
+        },
+        "gold": {
+          "50": {
+            "$type": "color",
+            "$value": "#FFFCF5",
+            "$description": "global color gold of weight 50"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#FDECC3",
+            "$description": "global color gold of weight 100"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#F0D36B",
+            "$description": "global color gold of weight 200"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#D4BB5F",
+            "$description": "global color gold of weight 300"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#B19D51",
+            "$description": "global color gold of weight 400"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#84773F",
+            "$description": "global color gold of weight 500"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#685E34",
+            "$description": "global color gold of weight 600"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#534B2B",
+            "$description": "global color gold of weight 700"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#3E3922",
+            "$description": "global color gold of weight 800"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#2B2819",
+            "$description": "global color gold of weight 900"
+          }
+        },
+        "red": {
+          "50": {
+            "$type": "color",
+            "$value": "#FFFBFB",
+            "$description": "global color red of weight 50"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#FFE9E5",
+            "$description": "global color red of weight 100"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#FFC7BF",
+            "$description": "global color red of weight 200"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#FCA69C",
+            "$description": "global color red of weight 300"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#F37A73",
+            "$description": "global color red of weight 400"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#BA5A56",
+            "$description": "global color red of weight 500"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#934846",
+            "$description": "global color red of weight 600"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#743A3A",
+            "$description": "global color red of weight 700"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#572D2D",
+            "$description": "global color red of weight 800"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#3B2020",
+            "$description": "global color red of weight 900"
+          }
+        },
+        "green": {
+          "50": {
+            "$type": "color",
+            "$value": "#f7fbeb",
+            "$description": "global color green of weight 50"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#DFF3DC",
+            "$description": "global color green of weight 100"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#B0E1AA",
+            "$description": "global color green of weight 200"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#7FCE7A",
+            "$description": "global color green of weight 300"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#69AD65",
+            "$description": "global color green of weight 400"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#51834E",
+            "$description": "global color green of weight 500"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#42673F",
+            "$description": "global color green of weight 600"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#365233",
+            "$description": "global color green of weight 700"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#2A3E28",
+            "$description": "global color green of weight 800"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#1E2B1D",
+            "$description": "global color green of weight 900"
+          }
+        },
+        "neutral": {
+          "50": {
+            "$type": "color",
+            "$value": "#FCFCFC",
+            "$description": "global color neutral of weight 50"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#EDEDED",
+            "$description": "global color neutral of weight 100"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#D4D4D4",
+            "$description": "global color neutral of weight 200"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#BCBCBC",
+            "$description": "global color neutral of weight 300"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#9E9E9E",
+            "$description": "global color neutral of weight 400"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#777777",
+            "$description": "global color neutral of weight 500"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#5E5E5E",
+            "$description": "global color neutral of weight 600"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#4B4B4B",
+            "$description": "global color neutral of weight 700"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#393939",
+            "$description": "global color neutral of weight 800"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#282828",
+            "$description": "global color neutral of weight 900"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "#1C1C1E",
+            "$description": "global color neutral of weight 950"
+          }
+        }
+      }
+    }
+  }
+}
